@@ -1,0 +1,1575 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: #f5f5f5;
+  padding-top: 10px;
+  padding-bottom: 17px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  display: flex;
+  position: relative;
+  z-index: 3;
+}
+.menu__item {
+  padding-right: 25px;
+}
+
+.menu__item-link {
+  font-family: "Poppins";
+  font-style: normal;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 132%;
+  /* or 30px */
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.first {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 132%;
+  /* or 30px */
+  text-align: center;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+
+.header__info {
+  display: flex;
+
+  align-items: center;
+}
+.header__logo {
+  width: 164px;
+  height: 59px;
+  margin-right: 10px;
+}
+
+
+.phone__info {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  white-space: nowrap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.phone__icon {
+  margin-right: 10px;
+}
+
+.contact__us {
+  /* Contact Us */
+
+  white-space: nowrap;
+  width: 88px;
+  height: 22px;
+
+  /* Text Button */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  color: #ffffff;
+  /* Frame 1830 */
+
+  /* Auto layout */
+
+  align-items: center;
+  padding: 16px 32px;
+
+  background: #36689e;
+  border-radius: 12px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 37px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+.lang__icon {
+  margin-bottom: 6px;
+}
+
+.lang__dropdown {
+  position: relative;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.lang:hover .lang__options {
+  display: block;
+}
+
+.lang:hover .lang__arrow {
+  transform: rotateX(180deg);
+}
+
+.lang__options {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 3px;
+  padding-left: 0;
+  border-radius: 3px;
+}
+
+.lang__option {
+  color: #000;
+}
+
+.lang__option:hover {
+  font-weight: 700;
+}
+
+.info {
+  background: url(../img/bg/Intro\ bg.png) no-repeat;
+  background-size: cover;
+  /* Intro bg */
+  margin-bottom: 110px;
+}
+
+.container_s {
+  max-width: 1233px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.info__heading-title {
+  text-align: center;
+  padding-top: 250px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100.9%;
+  /* or 61px */
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 150px;
+}
+
+.info__heading-title span {
+  color: #0094ff;
+}
+
+.info__heading-text {
+  text-align: center;
+  /* At Energin , we're dedicated to revolutionizing the way energy is sourced, utilized, and sustained for generations to come. As a leading renewable energy integrator, we specialize in designing, implementing, and managing innovative solutions that harness the power of nature to meet the energy needs of today while preserving the planet for tomorrow. */
+  margin: 0 auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100.9%;
+  /* or 32px */
+  text-align: center;
+  max-width: 778px;
+  padding-bottom: 170px;
+  color: #ffffff;
+}
+
+.container_xs {
+  max-width: 1368px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.mission {
+  background: #f3fafa;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+.mission__heading-title {
+  /* Our Mission: */
+  margin-bottom: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  align-items: center;
+  color: #000000;
+}
+
+.mission__heading-text {
+  /* Our mission at Energin Solar is simple yet profound: to accelerate the global transition to renewable energy by providing cutting-edge solutions that are environmentally friendly, economically viable, and socially responsible. We believe that sustainable energy is not just a choice but a necessity for a brighter, cleaner future for all. */
+  margin-bottom: 47px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  text-align: justify;
+  max-width: 522px;
+  /* Black light */
+  color: #3a4963;
+}
+
+.mission__heading-text span {
+  color: #0094ff;
+  font-weight: 500;
+}
+
+.mission__heading {
+  display: flex;
+  justify-content: space-between;
+}
+.mission__heading-right-text {
+  /* At Energin Solar, we stand out in the renewable energy sector for several reasons: */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  text-align: justify;
+  max-width: 522px;
+  /* Black light */
+  color: #3a4963;
+  margin-bottom: 17px;
+}
+.mission__heading-right-text span {
+  color: #0094ff;
+}
+
+.mission__heading-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mission__heading-block {
+  width: 313px;
+  height: 161px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+.left-block {
+  margin-right: 30px;
+}
+.mission__heading-name {
+  /* Expertise */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 35px;
+
+  /* Cardble/Blue Dark */
+  color: #28407d;
+}
+.mission__heading-info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  max-width: 274px;
+  height: 70px;
+  align-items: center;
+  margin-left: 20px;
+
+  color: #000000;
+}
+
+.top-cont {
+  margin-bottom: 17px;
+}
+
+.expert::before {
+  content: url(../img/icons/magic-wand.png);
+  position: relative;
+  top: 2px;
+  right: 18px;
+}
+
+.custom::before {
+  content: url(../img/icons/loc.png);
+  position: relative;
+  top: 2px;
+  right: 18px;
+}
+.technology {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+.technology::before {
+  content: url(../img/icons/carts.png);
+  position: relative;
+  top: 2px;
+  right: 18px;
+}
+
+.sust {
+  margin-left: 40px;
+  margin-bottom: 1px;
+}
+
+.sust::before {
+  content: url(../img/icons/carts.png);
+  position: relative;
+  top: 2px;
+  right: 18px;
+}
+
+.container_xxs {
+  max-width: 1270px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.services__title {
+  /* Our Services */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 73px;
+  color: #000000;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.bottom {
+  display: flex;
+  margin-left: 220px;
+}
+
+.bottom__container {
+  width: 370px;
+  height: 336px;
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  border-radius: 17px;
+}
+
+.image-container {
+  /* Container for image */
+  width: 100%; /* чтобы изображение полностью заполняло контейнер */
+  height: 100%; /* чтобы изображение полностью заполняло контейнер */
+  overflow: hidden; /* Обрезаем углы */
+}
+
+.image-top {
+  width: 100%;
+  border-top-left-radius: 17px; /* Применяем радиус только к верхнему левому углу */
+  border-top-right-radius: 17px; /* Применяем радиус только к верхнему правому углу */
+  overflow: hidden; /* Обрезаем углы */
+}
+
+.top-container {
+  /* Card */
+
+  width: 370px;
+  height: 336px;
+
+  border: 1px solid rgba(0, 0, 0, 0.21);
+  border-radius: 17px;
+}
+
+.solar-title {
+  /* Solar Energy Integration */
+
+  width: 307px;
+  height: 33px;
+  margin-top: 33px;
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 139%;
+  /* or 33px */
+  margin-bottom: 15px;
+  color: #111111;
+}
+
+.solar-title-org {
+  width: 307px;
+  height: 33px;
+  margin-top: 6px;
+  margin-left: 15px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 139%;
+  /* or 33px */
+  margin-bottom: 15px;
+  color: #111111;
+}
+.second {
+  width: 333px;
+}
+
+.solar-link {
+  /* Read more */
+  box-sizing: border-box;
+  margin-top: 16px;
+  margin-left: 16px;
+  padding: 8px 16px;
+  width: 129px;
+  height: 40px;
+  margin-top: 15px;
+  text-align: center;
+  padding: 8px 25px 8px 16px;
+  border: 1px solid #111111;
+  border-radius: 2px;
+  width: 77px;
+  height: 24px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  color: #111111;
+}
+.solar-link::after {
+  content: url(../img/icons/Chevron\ Down.svg);
+  position: relative;
+  top: 3px;
+  right: -9px;
+}
+
+.services__button {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 187px;
+  /* Contact btn */
+
+  /* Auto layout */
+}
+.services__button-link {
+  /* Contact btn */
+
+  /* Auto layout */
+
+  align-items: center;
+  padding: 16px 142px;
+  /* Contact Us */
+
+  width: 88px;
+  height: 22px;
+
+  /* Text Button */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: -1px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  background: #36689e;
+  border-radius: 12px;
+}
+
+.frst-container {
+  margin-right: 45px;
+}
+
+.secnd-container {
+  margin-left: 60px;
+}
+
+.integration__title {
+  /* Expert Renewable Energy Integration Solutions */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.integration-text {
+  /* At Energin Solar, we pride ourselves on our unparalleled expertise in renewable energy integration. With years of experience and a dedicated team of professionals, we have become a trusted leader in designing, implementing, and managing sustainable energy solutions for a wide range of applications. */
+  max-width: 522px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  text-align: justify;
+  margin-top: 141px;
+  /* Black light */
+  color: #3a4963;
+}
+
+.integration-text span {
+  color: #0094ff;
+}
+
+.integration__heading-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.integration__heading-img {
+  margin-top: 59px;
+  margin-bottom: 90px;
+}
+
+.integration__heading-img {
+  background: url(../img/bckgEclipse/Ellipse\ 5.png) no-repeat;
+  background-size: cover;
+}
+
+.partner__heading-title {
+  /* Partner with Us for Your Renewable Energy Needs */
+  max-width: 848px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 37px;
+
+  color: #000000;
+}
+
+.partner__heading-text {
+  max-width: 775px;
+  /* Whether you're looking to reduce your carbon footprint, lower your energy bills, or enhance your energy resilience, Energin Solar is here to help. With our expertise in renewable energy integration, we'll work with you every step of the way to turn your sustainability goals into reality. */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  text-align: justify;
+
+  /* Black light */
+  color: #3a4963;
+  margin-bottom: 60px;
+  /* Whether you're looking to reduce your carbon footprint, lower your energy bills, or enhance your energy resilience, Energin Solar is here to help. With our expertise in renewable energy integration, we'll work with you every step of the way to turn your sustainability goals into reality. */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+  text-align: justify;
+
+  /* Black light */
+  color: #3a4963;
+}
+
+.partner__heading-link {
+  /* Text */
+
+  margin-top: 59px;
+  /* Heading/H6/Bold */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+
+  width: 347px;
+  height: 66px;
+
+  background: #36689e;
+  border-radius: 5px;
+
+  /* identical to box height, or 150% */
+  /* Frame 35727 */
+
+  color: #ffffff;
+}
+
+.partner__heading-button {
+  margin-left: 418px;
+}
+
+.partner {
+  background: #f3fafa;
+}
+
+.partner__heading {
+  padding-top: 56px;
+  padding-bottom: 75px;
+}
+.apart-title {
+  /* What Sets Us Apart */
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 68px;
+  display: flex;
+  align-items: center;
+  margin-top: 69px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.apart-info {
+  max-width: 1184px;
+  margin-bottom: 65px;
+}
+.apart-text {
+  /* Technical Excellence: Our team of engineers and technicians are experts in their field, with in-depth knowledge of renewable energy technologies and best practices. From system design to installation and maintenance, we ensure every aspect of the project meets the highest standards of quality and safety. */
+  max-width: 1175px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.apart-text::before {
+  content: url(../img/icons/galochka.png);
+  position: relative;
+  top: 2px;
+  right: 18px;
+}
+
+.apart-link {
+  text-align: center;
+}
+.apart-button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 20px 80px;
+  margin-top: 660px;
+  width: 347px;
+  height: 66px;
+
+  background: #36689e;
+  border-radius: 5px;
+
+  /* identical to box height, or 150% */
+  /* Frame 35727 */
+
+  color: #ffffff;
+}
+.apart-content {
+  padding-bottom: 60px;
+}
+.apart {
+  padding-bottom: 118px;
+}
+
+.container__l {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.footer {
+  background: #f3fafa;
+  padding-top: 44px;
+}
+.footer__logo {
+  width: 164px;
+  height: 59px;
+}
+
+.footer__left-text {
+  max-width: 454px;
+  /* We are a reliable and experienced solar company that offers affordable and sustainable energy solutions, customized to fit your unique needs. */
+
+  height: 72px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: justify;
+  letter-spacing: 0.07em;
+  text-transform: capitalize;
+
+  color: #535353;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 10px;
+  margin-bottom: 28px;
+}
+
+.footer__left-icons {
+  display: flex;
+}
+
+.footer__left-icon {
+  margin-left: 20px;
+}
+.footer__left-icon:first-child {
+  margin-left: 0; /* Снимаем margin-left для первого элемента */
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer__right-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__right-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: #1e1e1e;
+}
+
+.footer__right-links {
+  /* Services */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.footer__right-items {
+  margin-bottom: 29px;
+}
+
+.footer__services-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 30px;
+  color: #1e1e1e;
+}
+
+.footer__services-links {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+
+  color: #535353;
+}
+
+.footer__services-items {
+  margin-bottom: 29px;
+}
+
+.footer__link {
+  margin-right: 180px;
+}
+
+.footer__bottom {
+  /* Line 1 */
+  text-align: center;
+  border-top: 1px solid #dfdfdf;
+  /* Line 1 */
+}
+
+.footer__bottom-text {
+  /* Copyright © 2023 All right policy reserved */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  padding-top: 25px;
+  color: #535353;
+  padding-bottom: 20px;
+}
+
+.menu__btn {
+  display: none;
+}
+
+@media (max-width: 1310px) {
+  .apart-title {
+    text-align: center;
+    display: block;
+  }
+  .apart-text::before {
+    content: url(../img/icons/20-20.svg);
+    position: relative;
+    top: 2px;
+    right: 9px;
+  }
+  .apart-text {
+    font-size: 17px;
+  }
+
+  .menu__item-link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 132%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .first {
+    font-weight: 700;
+  }
+  .header__logo {
+    width: 140px;
+    height: 40px;
+  }
+  .contact__us {
+    width: 88px;
+    height: 22px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    align-items: center;
+    padding: 12px 20px;
+    background: #36689e;
+    border-radius: 12px;
+  }
+  .bottom {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .partner__heading-title {
+    margin: 0 auto;
+  }
+  .partner__heading-text {
+    margin: 0 auto;
+  }
+  .partner__heading-button {
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .partner__heading-title {
+    text-align: center;
+  }
+}
+@media (max-width: 1205px) {
+  .mission__heading {
+    display: block;
+  }
+  .mission {
+    margin-bottom: 40px;
+  }
+
+  .mission__heading-title {
+    text-align: center;
+  }
+  .mission__heading-text {
+    margin: 0 auto;
+  }
+  .mission__heading-contact {
+    text-align: center;
+  }
+
+  .mission__heading-left {
+    margin-bottom: 60px;
+  }
+  .info {
+    margin-bottom: 50px;
+  }
+  .mission__heading-right-text {
+    margin: 0 auto;
+  }
+
+  .mission__heading-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .menu__item-link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 132%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .first {
+    font-weight: 700;
+  }
+  .menu__item {
+    padding-right: 20px;
+  }
+
+  .phone__info {
+    margin-right: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  .contact__us {
+    width: 88px;
+    height: 22px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+    align-items: center;
+    padding: 12px 20px;
+    background: #36689e;
+    border-radius: 12px;
+  }
+
+  .info__heading-title {
+    text-align: center;
+    padding-top: 167px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 100.9%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 130px;
+  }
+}
+@media (max-width: 1150px) {
+  .top {
+    display: block;
+  }
+  .top-container {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .bottom {
+    display: block;
+  }
+  .frst-container {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .secnd-container {
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .integration__heading-info {
+    display: block;
+  }
+  .integration-text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .integration__heading-img {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .integration__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .mission__heading-title {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+  .mission__heading-text {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+
+  .info__heading-title {
+    text-align: center;
+    padding-top: 167px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100.9%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 130px;
+  }
+
+  .info__heading-text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 100.9%;
+    text-align: center;
+    max-width: 778px;
+    padding-bottom: 170px;
+    color: #ffffff;
+  }
+
+  .menu__item-link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .first {
+    font-weight: 700;
+  }
+  .header__logo {
+    width: 130px;
+    height: 40px;
+  }
+
+  .phone__info {
+    margin-right: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: #000000;
+  }
+}
+@media (max-width: 954px) {
+  .footer__right-title {
+    font-size: 15px;
+  }
+  .footer__right-links {
+    font-size: 13px;
+  }
+  .footer__services-title {
+    font-size: 15px;
+  }
+  .footer__services-links {
+    font-size: 13px;
+  }
+  .footer__left-text {
+    max-width: 237px;
+    height: 72px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: justify;
+    letter-spacing: 0.07em;
+    text-transform: capitalize;
+    color: #535353;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+}
+
+@media (max-width: 935px) {
+  .info__heading-title {
+    text-align: center;
+    padding-top: 80px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100.9%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 75px;
+  }
+  .info__heading-text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 100.9%;
+    text-align: center;
+    max-width: 778px;
+    padding-bottom: 115px;
+    color: #ffffff;
+  }
+
+  .header__logo {
+    width: 90px;
+    height: 40px;
+  }
+  .menu__item {
+    padding-right: 15px;
+  }
+
+  .menu__item-link {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 132%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+  .first {
+    font-weight: 700;
+  }
+  .phone__info {
+    margin-right: 15px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 19px;
+    color: #000000;
+  }
+  .contact__us {
+    width: 88px;
+    height: 22px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ffffff;
+    align-items: center;
+    padding: 12px 20px;
+    background: #36689e;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 800px) {
+  .apart-text {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .apart-title {
+    font-size: 40px;
+  }
+  .partner__heading-title {
+    font-size: 40px;
+  }
+  .top-container {
+    width: 298px;
+    height: 293px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 17px;
+  }
+  .bottom__container {
+    width: 298px;
+    height: 293px;
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    border-radius: 17px;
+  }
+  .services__title {
+    font-size: 40px;
+  }
+
+  .mission__heading-title {
+    font-size: 40px;
+  }
+  .integration__title {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .info__heading-text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100.9%;
+    text-align: center;
+    max-width: 506px;
+    padding-bottom: 115px;
+    color: #ffffff;
+  }
+  .info__heading-title {
+    text-align: center;
+    padding-top: 75px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 100.9%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 130px;
+  }
+
+  .menu__list {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #f5f5f5;
+    right: 0;
+    text-align: center;
+    transform: translateY(-500px);
+    transition: all 0.5s;
+  }
+  .menu__list.menu__list--active {
+    transform: translateY(0);
+  }
+  .menu__item-link {
+    padding: 15px 0;
+    display: block;
+  }
+  .menu {
+    order: 1;
+  }
+
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu__btn {
+    display: block;
+    margin-left: 10px;
+    width: 28px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    position: relative;
+    background-color: transparent;
+  }
+  .menu__btn::before {
+    content: "";
+    position: absolute;
+    width: 28px;
+    height: 2px;
+    background-color: #000;
+    left: 0px;
+    top: 7px;
+  }
+  .solar-title-org {
+    font-size: 18px;
+  }
+  .solar-title {
+    font-size: 18px;
+  }
+  .services__button-link {
+    padding: 12px 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .mission__heading-title {
+    font-size: 40px;
+  }
+  .mission__heading-right-text {
+    font-size: 15px;
+  }
+
+  .info__heading-title {
+    text-align: center;
+    padding-top: 76px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 100.9%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 165px;
+  }
+  .info__heading-text {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100.9%;
+    text-align: center;
+    max-width: 581px;
+    padding-bottom: 140px;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 670px) {
+  .footer__inner {
+    display: block;
+  }
+
+  .footer__left-info {
+    text-align: center;
+  }
+  .footer__left-text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+  .footer__left-icons {
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .apart-text {
+    line-height: 27px;
+  }
+  .apart-button {
+    padding: 20px 50px;
+  }
+  .apart-title {
+    font-size: 35px;
+  }
+  .services__title {
+    font-size: 35px;
+  }
+  .partner__heading-link {
+    width: 250px;
+    height: 50px;
+  }
+
+  .partner__heading-title {
+    font-size: 35px;
+    max-width: 450px;
+    line-height: 50px;
+  }
+
+  .mission__heading-title {
+    font-size: 35px;
+  }
+  .mission__heading-right-text {
+    font-size: 14px;
+  }
+  .mission__heading-text {
+    font-size: 14px;
+  }
+  .mission__heading-container {
+    display: block;
+  }
+  .mission__heading-block {
+    margin: 0 auto;
+  }
+
+  .integration-text {
+    font-size: 14px;
+  }
+  .integration__title {
+    font-size: 35px;
+  }
+  .partner__heading-text {
+    font-size: 14px;
+  }
+
+  @media (max-width: 450px) {
+    .partner__heading-title {
+      font-size: 22px;
+      max-width: 285px;
+      line-height: 41px;
+    }
+
+    .contact__us {
+      display: none;
+    }
+
+    .mission__heading-right-text {
+      max-width: 377px;
+      font-size: 14px;
+    }
+    .info {
+      margin-bottom: 0px;
+    }
+    .mission__heading-title {
+      font-size: 35px;
+    }
+    .mission {
+      padding-bottom: 60px;
+    }
+  }
+  @media (max-width: 450px) {
+    .info__heading-title {
+      text-align: center;
+      padding-top: 100px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 100.9%;
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 100px;
+    }
+    .info__heading-text {
+      text-align: center;
+      margin: 0 auto;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 100.9%;
+      text-align: center;
+      max-width: 581px;
+      padding-bottom: 140px;
+      color: #ffffff;
+    }
+
+    .menu__item-link {
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 10px;
+      line-height: 132%;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+    .first {
+      font-weight: 700;
+    }
+
+    .phone__info {
+      margin-right: 15px;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 9px;
+      line-height: 19px;
+      color: #000000;
+    }
+    .header__logo {
+      width: 75px;
+      height: 40px;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .footer__services-title {
+      font-size: 14px;
+    }
+    .footer__right-title {
+      font-size: 14px;
+    }
+
+    .footer__link {
+      margin-right: 0px;
+    }
+    .footer__bottom-text {
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 370px) {
+    .header__logo {
+      width: 70px;
+      height: 40px;
+    }
+  }
+}
