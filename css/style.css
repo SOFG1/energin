@@ -642,7 +642,6 @@ body {
   padding-bottom: 75px;
 }
 
-
 .apart__heading {
   padding: 0 15px;
 }
@@ -736,8 +735,6 @@ body {
   max-width: 454px;
   /* We are a reliable and experienced solar company that offers affordable and sustainable energy solutions, customized to fit your unique needs. */
 
-  height: 72px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -804,6 +801,18 @@ body {
 
 .footer__right-items {
   margin-bottom: 29px;
+}
+
+.footer__contact {
+  display: block;
+  width: fit-content;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 19px;
+  color: #000000;
+  margin-bottom: 15px;
 }
 
 .footer__services-title {
@@ -1367,7 +1376,7 @@ body {
     margin-top: 30px;
   }
   .footer__left-icons {
-    justify-content: center;
+    /* justify-content: center; */
     margin-bottom: 50px;
   }
 }
