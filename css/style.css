@@ -641,6 +641,12 @@ body {
   padding-top: 56px;
   padding-bottom: 75px;
 }
+
+
+.apart__heading {
+  padding: 0 15px;
+}
+
 .apart-title {
   /* What Sets Us Apart */
 
@@ -690,6 +696,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  white-space: nowrap;
   padding: 20px 80px;
   margin-top: 660px;
   width: 347px;
