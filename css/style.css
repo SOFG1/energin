@@ -268,9 +268,16 @@ body {
   color: #0094ff;
 }
 
-.mission__heading-container {
+.mission__heading-left {
+  margin-right: 20px;
+}
+.mission__heading-right-items {
+  max-width: 660px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 17px 30px;
 }
 
 .mission__heading-block {
@@ -278,9 +285,6 @@ body {
   height: 161px;
   background: #ffffff;
   border-radius: 16px;
-}
-.left-block {
-  margin-right: 30px;
 }
 .mission__heading-name {
   /* Expertise */
@@ -313,9 +317,6 @@ body {
   color: #000000;
 }
 
-.top-cont {
-  margin-bottom: 17px;
-}
 
 .expert::before {
   content: url(../img/icons/magic-wand.png);
@@ -347,7 +348,7 @@ body {
 }
 
 .sust::before {
-  content: url(../img/icons/carts.png);
+  content: url(../img/icons/Iii.png);
   position: relative;
   top: 2px;
   right: 18px;
@@ -970,11 +971,6 @@ body {
   .mission__heading-right-text {
     margin: 0 auto;
   }
-
-  .mission__heading-container {
-    display: flex;
-    justify-content: center;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -1453,13 +1449,6 @@ body {
   .mission__heading-text {
     font-size: 14px;
   }
-  .mission__heading-container {
-    display: block;
-  }
-  .mission__heading-block {
-    margin: 0 auto;
-  }
-
   .integration-text {
     font-size: 14px;
   }
