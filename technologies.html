@@ -15,70 +15,622 @@
     <!-- Styles -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/technologies.css" />
   </head>
   <body>
-
-        
-      <!-- Header -->
-      <header class="header">
-        <div class="container">
-          <div class="header__inner">
-            <a href="#" class="logo">
-              <img class="header__logo" src="./img/logo/logo.svg" alt="" />
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="logo">
+            <img class="header__logo" src="./img/logo/logo.svg" alt="" />
+          </a>
+          <nav class="menu">
+            <button class="menu__btn"></button>
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__item-link first" href="">Home</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="">Services</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="">Technologies</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="">Solutions</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="">Resource Center</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="">About</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__info">
+            <a class="phone__info" href="tel:+37496199707">
+              <img class="phone__icon" src="./img/icons/phone.svg" alt="" />
+              <span>+374 96 199707</span>
             </a>
-            <nav class="menu">
-              <button class="menu__btn"></button>
-              <ul class="menu__list">
-                <li class="menu__item">
-                  <a class="menu__item-link first" href="">Home</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item-link" href="">Services</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item-link" href="">Technologies</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item-link" href="">Solutions</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item-link" href="">Resource Center</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__item-link" href="">About</a>
-                </li>
-              </ul>
-            </nav>
-            <div class="header__info">
-              <a class="phone__info" href="tel:+37496199707">
-                <img class="phone__icon" src="./img/icons/phone.svg" alt="" />
-                <span>+374 96 199707</span>
-              </a>
-              <div class="contact">
-                <a href="#" class="contact__us contact__bottom"> Contact Us </a>
-              </div>
-              <div class="lang">
-                <img class="lang__icon" src="./img/icons/Globe.png" alt="" />
-                <div class="lang__dropdown">
-                  <span>ENG</span>
-                  <img
-                    class="lang__arrow"
-                    src="./img/icons/lang-arrow.svg"
-                    alt=""
-                  />
-                  <div class="lang__options">
-                    <a href="#" class="lang__option">RUS</a>
-                    <a href="#" class="lang__option">ARM</a>
-                  </div>
+            <div class="contact">
+              <a href="#" class="contact__us contact__bottom"> Contact Us </a>
+            </div>
+            <div class="lang">
+              <img class="lang__icon" src="./img/icons/Globe.png" alt="" />
+              <div class="lang__dropdown">
+                <span>ENG</span>
+                <img
+                  class="lang__arrow"
+                  src="./img/icons/lang-arrow.svg"
+                  alt=""
+                />
+                <div class="lang__options">
+                  <a href="#" class="lang__option">RUS</a>
+                  <a href="#" class="lang__option">ARM</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
     <!-- ./Header -->
 
-   
+    <!-- Solar technology -->
+    <section class="technology">
+      <div class="technology__heading">
+        <img
+          src="./img/technology-solar.png"
+          alt=""
+          class="technology__poster"
+        />
+        <h2 class="technology__title">Solar Energy</h2>
+        <div class="technology__text">
+          <p>
+            Solar energy harnesses the power of sunlight using photovoltaic (PV)
+            panels or solar thermal collectors. PV panels convert sunlight
+            directly into electricity, while solar thermal collectors use
+            sunlight to heat water or other fluids for various applications.
+          </p>
+        </div>
+      </div>
+
+      <div class="technology__info">
+        <h3 class="technology__benefits-title">Benefits:</h3>
+        <img
+          src="./img/solar-benefit.png"
+          alt=""
+          class="technology__benefits-img"
+        />
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Abundant Resource: Solar energy is abundant and inexhaustible,
+            making it a reliable and sustainable source of power.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Clean Energy: Solar power generates electricity without producing
+            greenhouse gas emissions or pollution, helping to combat climate
+            change and improve air quality.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Scalability: Solar energy systems can be scaled to meet a wide range
+            of energy needs, from small residential installations to large
+            utility-scale projects.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Cost Savings: Investing in solar energy can lead to significant
+            long-term cost savings on electricity bills and reduce reliance on
+            fossil fuels.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <p class="technology__benefits-text">
+          <span>Integration into Existing Systems:</span> Solar energy can be
+          integrated into existing electrical systems through rooftop or
+          ground-mounted PV installations. These systems can offset electricity
+          consumption from the grid, reducing utility bills and providing energy
+          security during grid outages. Solar energy can also be combined with
+          energy storage solutions to store excess energy generated during the
+          day for use at night or during periods of high demand.
+        </p>
+      </div>
+    </section>
+    <!-- ./ Solar technology -->
+
+    <!-- Wind technology -->
+    <section class="technology">
+      <div class="technology__heading">
+        <img
+          src="./img/technology-wind.png"
+          alt=""
+          class="technology__poster"
+        />
+        <h2 class="technology__title">Wind Energy</h2>
+        <div class="technology__text">
+          <p>
+            Wind energy utilizes wind turbines to convert kinetic energy from
+            the wind into electricity. Wind turbines consist of rotor blades
+            mounted on a tower, which capture the wind and spin a generator to
+            produce electricity.
+          </p>
+        </div>
+      </div>
+
+      <div class="technology__info">
+        <h3 class="technology__benefits-title">Benefits:</h3>
+        <img
+          src="./img/wind-benefit2.jpg"
+          alt=""
+          class="technology__benefits-img"
+        />
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Abundant Resource: Wind energy is abundant and widely available,
+            especially in coastal and open terrain areas with consistent wind
+            patterns.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Low Environmental Impact: Wind power generates electricity without
+            emitting greenhouse gases or pollutants, making it an
+            environmentally friendly alternative to fossil fuels.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Energy Independence: Wind energy reduces dependence on imported
+            fossil fuels and enhances energy security by diversifying the energy
+            mix.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Economic Development: Wind energy projects create jobs, stimulate
+            local economies, and provide a source of revenue for landowners
+            hosting wind turbines.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <p class="technology__benefits-text">
+          <span>Integration into Existing Systems:</span> Wind energy can be
+          integrated into existing electrical grids through grid-connected wind
+          farms or distributed wind turbines. Wind farms can be located onshore
+          or offshore and connected to the grid to supply electricity to homes,
+          businesses, and industries. Distributed wind turbines can be installed
+          on-site at residential or commercial properties to offset electricity
+          consumption and reduce utility bills.
+        </p>
+      </div>
+    </section>
+    <!-- ./ Wind technology -->
+
+    <!-- Storage technology -->
+    <section class="technology">
+      <div class="technology__heading">
+        <img
+          src="./img/technology-storage.png"
+          alt=""
+          class="technology__poster"
+        />
+        <h2 class="technology__title">Energy Storage</h2>
+        <div class="technology__text">
+          <p>
+            Energy storage technologies store excess energy generated from
+            renewable sources for use when needed. Common energy storage
+            technologies include batteries, pumped hydro storage, compressed air
+            energy storage, and thermal energy storage.
+          </p>
+        </div>
+      </div>
+
+      <div class="technology__info">
+        <h3 class="technology__benefits-title">Benefits:</h3>
+        <img
+          src="./img/storage-benefit.jpg"
+          alt=""
+          class="technology__benefits-img"
+        />
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Grid Stability: Energy storage helps balance supply and demand,
+            stabilize grid frequency, and improve overall grid reliability and
+            resilience.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Renewable Integration: Energy storage enables the integration of
+            variable renewable energy sources like solar and wind by storing
+            excess energy when production exceeds demand and releasing it when
+            demand exceeds production.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Peak Shaving: Energy storage systems can reduce peak demand charges
+            by storing energy during off-peak hours when electricity prices are
+            low and discharging it during peak hours when prices are high.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Backup Power: Energy storage provides backup power during grid
+            outages, ensuring continuity of critical operations and reducing the
+            impact of power disruptions.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <p class="technology__benefits-text mb45">
+          <span>Integration into Existing Systems:</span> Energy storage systems
+          can be integrated into existing electrical grids, renewable energy
+          systems, and microgrids to enhance system flexibility, reliability,
+          and performance. Energy storage can be paired with solar PV systems to
+          store excess solar energy for use at night or during cloudy periods.
+          It can also be combined with wind farms to smooth out fluctuations in
+          wind power output and improve grid stability.
+        </p>
+      </div>
+      <div class="technology__info technology__info_full">
+        <h3 class="technology__benefits-title">
+          Energy Sotage system benefits for Business
+        </h3>
+
+        <p class="technology__benefits-text mb45">
+          Implementing an energy storage system can offer numerous benefits for
+          businesses across various sectors. Here are some key advantages:
+        </p>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Cost Savings: Energy storage systems can help businesses save money
+            by reducing peak demand charges. By storing energy during off-peak
+            hours when electricity rates are low and using it during peak demand
+            periods when rates are high, businesses can minimize their overall
+            energy costs.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Increased Energy Resilience: Energy storage provides a backup power
+            source in case of grid outages or interruptions. This is
+            particularly crucial for businesses that rely heavily on continuous
+            power supply, such as data centers, hospitals, manufacturing
+            facilities, and critical infrastructure.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Load Shifting and Peak Demand Management: Energy storage allows
+            businesses to shift their electricity usage away from times of high
+            demand, helping to alleviate strain on the grid during peak hours.
+            By managing peak demand more effectively, businesses can reduce
+            their electricity bills and potentially earn revenue through demand
+            response programs.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Integration with Renewable Energy: For businesses that generate
+            their own renewable energy, such as solar or wind power, energy
+            storage enables them to store excess energy produced during periods
+            of high generation and use it when energy production is low. This
+            improves the reliability and stability of renewable energy systems
+            and maximizes their value.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Voltage and Frequency Regulation: Energy storage systems can help
+            businesses maintain stable voltage and frequency levels, improving
+            the quality and reliability of their electricity supply. This is
+            especially beneficial for businesses with sensitive equipment or
+            operations that require precise control over power quality.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Environmental Benefits: By reducing reliance on fossil fuel-based
+            backup generators and optimizing energy usage, energy storage
+            systems can help businesses lower their carbon footprint and
+            contribute to environmental sustainability goals.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Grid Support and Flexibility: Energy storage systems can provide
+            grid support services such as frequency regulation, voltage control,
+            and grid stabilization. By participating in grid ancillary service
+            markets, businesses can potentially generate additional revenue
+            streams while supporting grid reliability and resilience.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Scalability and Modularity: Energy storage systems can be scaled up
+            or down to meet the evolving needs of businesses. They can also be
+            easily integrated with existing infrastructure and expanded over
+            time as energy requirements grow or technology advances.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Energy Independence: By storing energy onsite, businesses reduce
+            their dependence on external energy suppliers and mitigate risks
+            associated with energy price volatility, supply disruptions, and
+            regulatory changes.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <p class="technology__benefits-text mb45">
+          Overall, energy storage systems offer a wide range of benefits for
+          businesses, including cost savings, resilience, sustainability, and
+          enhanced operational flexibility. As the technology continues to
+          evolve and costs decline, energy storage is becoming an increasingly
+          attractive investment for businesses looking to optimize their energy
+          usage and improve their bottom line.
+        </p>
+        <p class="technology__benefits-text mb45">
+          Hybrid solar energy systems, combining solar power with energy storage
+          and potentially other energy sources like diesel generators or grid
+          power, are an excellent choice for businesses with critical missions.
+          Here's why:
+        </p>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Reliability and Resilience: By integrating energy storage with solar
+            panels, businesses can ensure a continuous power supply even during
+            periods of low solar generation or grid outages. This enhances the
+            reliability and resilience of critical operations, minimizing the
+            risk of downtime and ensuring business continuity.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Load Flexibility and Peak Shaving: Hybrid solar energy systems allow
+            businesses to manage their energy usage more effectively by storing
+            excess solar energy during periods of low demand and using it during
+            peak demand hours. This helps to reduce electricity costs by
+            avoiding expensive peak demand charges and optimizing energy
+            consumption patterns.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Backup Power: In addition to solar power, hybrid systems can
+            incorporate backup power sources such as diesel generators or grid
+            connections. This provides an added layer of redundancy and ensures
+            uninterrupted power supply, particularly during extended periods of
+            low solar generation or energy storage depletion.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Remote Monitoring and Control: Advanced hybrid solar energy systems
+            often come with remote monitoring and control capabilities, allowing
+            businesses to monitor energy production, storage levels, and overall
+            system performance in real-time. This enables proactive maintenance
+            and troubleshooting, minimizing the risk of unexpected system
+            failures.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Environmental Benefits: Hybrid solar energy systems reduce reliance
+            on fossil fuel-based backup generators, resulting in lower carbon
+            emissions and environmental impact. By harnessing renewable solar
+            energy and optimizing energy usage, businesses can demonstrate their
+            commitment to sustainability and environmental stewardship.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Scalability and Modularity: Hybrid solar energy systems are highly
+            scalable and modular, allowing businesses to tailor the system size
+            and configuration to their specific energy needs and budget
+            constraints. As energy requirements grow or technology advances,
+            additional solar panels, energy storage units, or backup power
+            sources can be easily integrated into the system.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <div class="technology__benefit">
+          <p class="technology__benefit-text">
+            Cost Savings: Over time, hybrid solar energy systems can lead to
+            significant cost savings through reduced electricity bills, avoided
+            peak demand charges, and lower maintenance costs compared to
+            traditional backup power systems. Additionally, incentives and
+            rebates may be available for businesses investing in renewable
+            energy and energy storage technologies.
+          </p>
+          <img
+            src="./img/benefit-icon.svg"
+            alt=""
+            class="technology__benefit-icon"
+          />
+        </div>
+
+        <p class="technology__benefits-text mb45">
+          Overall, hybrid solar energy systems offer a reliable, resilient, and
+          cost-effective solution for businesses with critical missions,
+          ensuring uninterrupted power supply while reducing environmental
+          impact and operating costs. By harnessing the power of the sun and
+          integrating energy storage and backup power sources, businesses can
+          enhance their energy security and sustainability while maintaining
+          operational excellence.
+        </p>
+      </div>
+    </section>
+
+    <!-- ./ Storage technology -->
 
     <!-- Footer -->
     <footer class="footer">
@@ -102,7 +654,6 @@
               <span>manager@energin.solar</span>
             </a>
 
-            
             <a class="footer__contact" href="mailto:info@energin.solar">
               <span>info@energin.solar</span>
             </a>
@@ -189,7 +740,6 @@
       </div>
     </footer>
     <!-- ./Footer -->
-
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

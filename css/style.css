@@ -338,11 +338,11 @@ body {
   top: 2px;
   right: 18px;
 }
-.technology {
+.technolog {
   margin-left: 40px;
   margin-bottom: 10px;
 }
-.technology::before {
+.technolog::before {
   content: url(../img/icons/carts.png);
   position: relative;
   top: 2px;
@@ -1169,6 +1169,9 @@ body {
 }
 
 @media (max-width: 935px) {
+  .lang {
+    margin-left: 10px;
+  }
   .info__heading-title {
     text-align: center;
     padding-top: 80px;

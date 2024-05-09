@@ -1,0 +1,183 @@
+/* Technology */
+
+.technology {
+  margin-bottom: 80px;
+}
+
+.technology__heading {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 81px;
+}
+
+.technology__poster {
+  position: absolute;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.technology__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 100px;
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 15px;
+  margin-bottom: 62px;
+}
+
+.technology__text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  font-size: 32px;
+  width: 100%;
+  max-width: 1240px;
+  padding: 0 15px;
+  margin-bottom: 100px;
+}
+
+.technology__text p {
+  max-width: 800px;
+}
+
+.technology__info {
+  position: relative;
+  max-width: 1410px;
+  padding-right: 440px;
+  padding-left: 10px;
+  margin: 0 auto;
+}
+
+.technology__info_full {
+    padding-right: 10px;
+  }
+
+.technology__benefits-title {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 33px;
+}
+
+.technology__benefits-img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 405px;
+  height: 266px;
+}
+
+.technology__benefit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.technology__benefit-text {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.technology__benefit-icon {
+  width: 120px;
+  height: 120px;
+}
+
+.technology__benefits-text {
+  font-family: "Robote", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #3a4963;
+  margin-top: 48px;
+}
+
+.technology__benefits-text span {
+  font-weight: 600;
+}
+
+.mb45 {
+    margin-bottom: 45px;
+}
+
+@media screen and (max-width: 1450px) {
+  .technology__info {
+    padding-right: 10px;
+  }
+
+  .technology__benefits-title {
+    height: 200px;
+  }
+
+  .technology__benefits-img {
+    top: 0;
+    right: 20px;
+    transform: none;
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .technology__heading {
+    min-height: 80vh;
+  }
+  .technology__title {
+    font-size: 70px;
+  }
+  .technology__text {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .technology__heading {
+    margin-bottom: 50px;
+  }
+  .technology__title {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .technology__text {
+    font-size: 22px;
+    margin-bottom: 60px;
+  }
+  .technology__benefits-title {
+    font-size: 35px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .technology__benefits-img {
+    position: static;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 15px;
+  }
+  .technology__benefit-text {
+    font-size: 18px;
+  }
+  .technology__benefit-icon {
+    height: 80px;
+    width: 80px;
+  }
+  .technology__benefits-text {
+    font-size: 18px;
+  }
+}
+
+/* ./ Technology */
