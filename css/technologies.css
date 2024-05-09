@@ -59,9 +59,7 @@
   margin: 0 auto;
 }
 
-.technology__info_full {
-    padding-right: 10px;
-  }
+
 
 .technology__benefits-title {
   font-size: 45px;
@@ -77,6 +75,11 @@
   right: 0;
   width: 405px;
   height: 266px;
+}
+
+.technology__benefits-img_top {
+  top: 300px;
+  transform: none;
 }
 
 .technology__benefit {
@@ -112,7 +115,7 @@
 }
 
 .mb45 {
-    margin-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 @media screen and (max-width: 1450px) {
