@@ -801,8 +801,12 @@ body {
   /* identical to box height */
   display: flex;
   align-items: center;
-
+  transition: 200ms;
   color: #535353;
+}
+
+.footer__services-links:hover, .footer__right-links:hover {
+  text-shadow: 2px 2px 4px #5353538a;
 }
 
 .footer__services-items {
