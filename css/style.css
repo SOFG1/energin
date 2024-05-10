@@ -38,10 +38,14 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 132%;
-  /* or 30px */
   text-align: center;
   letter-spacing: 0.01em;
   color: #000000;
+  transition: 200ms;
+}
+
+.menu__item-link:hover {
+  opacity: .7;
 }
 
 .first {
