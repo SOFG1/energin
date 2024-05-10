@@ -8,7 +8,6 @@ body {
   padding: 0 10px;
 }
 
-
 /* Header */
 
 .header {
@@ -86,31 +85,28 @@ body {
   margin-right: 10px;
 }
 
-
-.contact__us {
-  /* Contact Us */
-
+.button {
   white-space: nowrap;
-  width: 88px;
-  height: 22px;
-
-  /* Text Button */
+  padding: 16px 32px;
+  background: #36689e;
+  border-radius: 12px;
+  color: #ffffff;
   font-family: "Inter";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  /* identical to box height */
-  color: #ffffff;
-  /* Frame 1830 */
+  transition: 200ms;
+}
 
-  /* Auto layout */
+.button:hover {
+  background-color: #0082df;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 130, 223, 0.352);
+}
 
-  align-items: center;
-  padding: 16px 32px;
-
-  background: #36689e;
-  border-radius: 12px;
+.contact__us {
+  width: 88px;
+  height: 22px;
 }
 
 .lang {
@@ -161,7 +157,6 @@ body {
 .lang__option:hover {
   font-weight: 700;
 }
-
 
 /* ./Header */
 
@@ -219,14 +214,9 @@ body {
   padding: 0 10px;
 }
 
-
-
 /* ./Info */
 
-
-
 /* Mission */
-
 
 .mission {
   background: #f3fafa;
@@ -493,35 +483,11 @@ body {
   /* Auto layout */
 }
 .services__button-link {
-  /* Contact btn */
-
-  /* Auto layout */
-
-  align-items: center;
   padding: 16px 142px;
-  /* Contact Us */
-
   width: 88px;
   height: 22px;
-
-  /* Text Button */
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  letter-spacing: -1px;
-
-  color: #ffffff;
-
-  /* Inside auto layout */
-
-  background: #36689e;
-  border-radius: 12px;
 }
 /* ./Services */
-
 
 /* Integration */
 
@@ -576,7 +542,6 @@ body {
 
 /* ./Integration */
 
-
 /* Partner */
 
 .partner__heading-title {
@@ -624,32 +589,13 @@ body {
 }
 
 .partner__heading-link {
-  /* Text */
-
-  margin-top: 59px;
-  /* Heading/H6/Bold */
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 20px 100px;
   display: flex;
-  flex-direction: row;
+  margin-top: 59px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 12px 32px;
-
   width: 347px;
   height: 66px;
-
-  background: #36689e;
-  border-radius: 5px;
-
-  /* identical to box height, or 150% */
-  /* Frame 35727 */
-
-  color: #ffffff;
 }
 
 .partner__heading-button {
@@ -666,7 +612,6 @@ body {
 }
 
 /* ./Partner */
-
 
 /* Apart */
 
@@ -718,24 +663,10 @@ body {
   text-align: center;
 }
 .apart-button {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  white-space: nowrap;
   padding: 20px 80px;
   margin-top: 660px;
   width: 347px;
   height: 66px;
-
-  background: #36689e;
-  border-radius: 5px;
-
-  /* identical to box height, or 150% */
-  /* Frame 35727 */
-
-  color: #ffffff;
 }
 .apart-content {
   padding-bottom: 60px;
