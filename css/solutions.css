@@ -1,0 +1,148 @@
+.solution {
+  /* max-width: 100%; */
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+
+.solution__head {
+  padding-top: 33px;
+  padding-bottom: 142px;
+  background-color: #f3fafa;
+}
+
+.solution__head-container {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.solution__head-title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.solution__head-text {
+  max-width: 900px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #3a4963;
+}
+
+.solution__images {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1290px;
+  padding: 0 20px;
+  margin: -100px auto 0;
+  margin-bottom: 60px;
+}
+
+.solution__image {
+  width: 31%;
+  box-shadow: 0 0 13px #a8ffffbf;
+  border: 9px solid #fff;
+  object-fit: cover;
+}
+
+.solution__title {
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 67px;
+}
+
+.solution__benefit {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.solution__benefit-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.solution__benefit-text span {
+    font-weight: 700;
+}
+
+.solution__benefit-icon {
+    height: 100px;
+    width: 100px;
+}
+
+.solution__box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 480px;
+  margin-bottom: 52px;
+}
+
+.solution__box_reverse > div {
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 40px;
+}
+
+.solution__box_reverse > img {
+    left: auto;
+    right: 50%;
+}
+
+.solution__items {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 0;
+  padding-right: 40px;
+}
+
+.solution__item {
+    display: flex;
+    gap: 41px;
+    align-items: center;
+}
+
+.solution__item-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.solution__item-text span {
+    font-weight: 700;
+}
+
+.solution__box-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  min-width: 50vw;
+}
+
+
+.solution__text {
+    font-size: 24px;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+    color: #3A4963;
+}
+
+.solution__text span {
+    font-weight: 500;
+}
