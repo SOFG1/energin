@@ -785,8 +785,13 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 19px;
+  white-space: nowrap;
   color: #000000;
   margin-bottom: 15px;
+}
+
+.footer__contact span {
+  white-space: nowrap;
 }
 
 .footer__services-title {
