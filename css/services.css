@@ -88,7 +88,7 @@
 }
 
 .integrating__text::before {
-  content: url(/img/icons/galochka.png);
+  content: url(../img/icons/galochka.png);
   position: relative;
   top: 2px;
   right: 35px;
@@ -133,7 +133,7 @@
 }
 
 .system__text::before {
-  content: url(/img/icons/galochka.png);
+  content: url(../img/icons/galochka.png);
   position: relative;
   top: 5px;
   right: 25px;
@@ -204,7 +204,7 @@
 }
 
 .storage__text::before {
-  content: url(/img/icons/galochka.png);
+  content: url(../img/icons/galochka.png);
   position: relative;
   top: 5px;
   right: 41px;
@@ -256,7 +256,7 @@
 }
 
 .development__text::before {
-  content: url(/img/icons/galochka.png);
+  content: url(../img/icons/galochka.png);
   position: relative;
   top: 5px;
   right: 25px;
@@ -308,7 +308,7 @@
 }
 
 .consulting__text::before {
-  content: url(/img/icons/galochka.png);
+  content: url(../img/icons/galochka.png);
   position: relative;
   top: 5px;
   right: 41px;
@@ -474,7 +474,7 @@
 }
 
 .instalation__content::before {
-  content: url(/img/icons/galochka.png);
+  content: url(../img/icons/galochka.png);
   position: relative;
   top: 100px;
   right: 69px;
@@ -616,13 +616,13 @@
     margin-bottom: 40px;
   }
   .integrating__text::before {
-    content: url(/img/icons/galochka.png);
+    content: url(../img/icons/galochka.png);
     position: relative;
     top: 2px;
     right: 25px;
   }
   .storage__text::before {
-    content: url(/img/icons/galochka.png);
+    content: url(../img/icons/galochka.png);
     position: relative;
     top: 5px;
     right: 25px;
@@ -662,7 +662,7 @@
     margin-bottom: 40px;
   }
   .development__text::before {
-    content: url(/img/icons/galochka.png);
+    content: url(../img/icons/galochka.png);
     position: relative;
     top: 2px;
     right: 25px;
@@ -702,7 +702,7 @@
     margin-bottom: 40px;
   }
   .consulting__text::before {
-    content: url(/img/icons/galochka.png);
+    content: url(../img/icons/galochka.png);
     position: relative;
     top: 5px;
     right: 25px;
@@ -961,7 +961,7 @@
   }
 
   .integrating__text::before {
-    content: url(/img/icons/galochka.png);
+    content: url(../img/icons/galochka.png);
     position: relative;
     top: 5px;
     right: 25px;
@@ -973,7 +973,7 @@
     max-width: 315px;
   }
   .system__text::before {
-    content: url(/img/icons/galochka.png);
+    content: url(../img/icons/galochka.png);
     position: relative;
     top: 5px;
     right: 25px;
