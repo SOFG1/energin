@@ -1,7 +1,6 @@
 .solution {
-  /* max-width: 100%; */
   overflow: hidden;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
 }
 
 .solution__head {
@@ -11,7 +10,8 @@
 }
 
 .solution__head-container {
-  max-width: 1190px;
+  max-width: 1210px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 67px;
+  margin-bottom: 50px;
 }
 
 .solution__benefit {
@@ -84,7 +84,7 @@
   align-items: center;
   position: relative;
   min-height: 480px;
-  margin-bottom: 52px;
+  margin-bottom: 90px;
 }
 
 .solution__box_reverse > div {
