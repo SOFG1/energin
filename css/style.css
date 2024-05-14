@@ -19,7 +19,7 @@ body {
   padding-top: 10px;
   padding-bottom: 17px;
   background-color: #fff;
-  box-shadow: 0 10px 10px rgba(255, 255, 255, 0.522);
+  box-shadow: 0 5px 10px rgba(255, 255, 255, 0.522);
   z-index: 10;
 }
 
