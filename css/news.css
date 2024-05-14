@@ -4,6 +4,14 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.article > a {
+  transition: 200ms;
+}
+
+.article > a:hover {
+  opacity: .85;
+}
+
 .article:last-child {
   padding-bottom: 0;
   border-bottom: 0;
