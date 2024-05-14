@@ -740,6 +740,7 @@ body {
 .footer__inner {
   display: flex;
   justify-content: space-between;
+  gap: 15px;
   margin-bottom: 20px;
 }
 
@@ -1106,7 +1107,6 @@ body {
   }
   .footer__left-text {
     max-width: 237px;
-    height: 72px;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 600;
