@@ -125,6 +125,7 @@
 
   .technology__benefits-title {
     height: 200px;
+    padding-right: 320px;
   }
 
   .technology__benefits-img {
@@ -162,6 +163,7 @@
   }
   .technology__benefits-title {
     font-size: 35px;
+    padding-right: 0;
     height: auto;
     margin-bottom: 20px;
   }
