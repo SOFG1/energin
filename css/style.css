@@ -3,11 +3,6 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-body section {
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
 .container {
   max-width: 100%;
   margin: 0 auto;
@@ -403,6 +398,11 @@ body section {
 
 /* Services */
 
+.services {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .services__title {
   /* Our Services */
 
@@ -508,6 +508,10 @@ body section {
 /* ./Services */
 
 /* Integration */
+.integration {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
 .integration__title {
   /* Expert Renewable Energy Integration Solutions */
