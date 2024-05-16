@@ -628,6 +628,10 @@ body {
 
 /* Apart */
 
+.apart {
+  overflow-x: hidden;
+}
+
 .apart__heading {
   padding: 0 15px;
 }
