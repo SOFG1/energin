@@ -1,6 +1,7 @@
 body {
   padding-top: 87px;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
