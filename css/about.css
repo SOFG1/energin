@@ -1,13 +1,32 @@
 .about {
-  margin-bottom: 200px;
 }
 
 .about__mission {
   background-color: #f3fafa;
   padding: 42px 0 63px;
-  margin-bottom: 62px;
 }
 
+.about__content {
+  position: relative;
+  background-image: url(../img/solutions-off-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 62px 0 200px;
+  color: #fff;
+}
+.about__content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.about__content > div {
+  position: relative;
+}
 .about__title {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
@@ -40,8 +59,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .about {
-    margin-bottom: 50px;
+
+  .about__content {
+    padding-bottom: 50px;
   }
 
   .about__mission {
@@ -58,10 +78,8 @@
     line-height: 24px;
   }
 
-
   .about__text {
     font-size: 20px;
     margin-bottom: 35px;
   }
-
 }
