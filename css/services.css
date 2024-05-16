@@ -439,6 +439,8 @@
 }
 
 .installation {
+  max-width: 100%;
+  overflow-x: hidden;
   margin-top: 203px;
   margin-bottom: 264px;
 }
