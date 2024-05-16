@@ -1,3 +1,14 @@
+.solutions__video {
+  display: flex;
+  justify-content: center;
+}
+
+.solutions__video video {
+  width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
 .solution {
   overflow: hidden;
   margin-bottom: 200px;
