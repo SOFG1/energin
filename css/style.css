@@ -1261,7 +1261,7 @@ body {
   .menu__list {
     display: block;
     position: absolute;
-    top: 80px;
+    top: 72px;
     left: 0;
     background-color: #fff;
     right: 0;
@@ -1376,6 +1376,10 @@ body {
   .lang__icon {
     height: 20px;
     width: 20px;
+  }
+
+  .menu__list {
+    top: 67px;
   }
   .apart-text {
     line-height: 27px;
