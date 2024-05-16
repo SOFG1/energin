@@ -1,4 +1,4 @@
-AOS.init()
+AOS.init({once: true})
 
 $(function () {
   $(".menu__btn").on("click", function () {
