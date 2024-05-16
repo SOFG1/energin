@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/about.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
   </head>
@@ -84,8 +85,14 @@
     <section class="about">
       <div class="about__mission">
         <div class="container_s">
-          <h1 class="about__title">Our mission</h1>
-          <h class="about__mission-text"
+          <h1 class="about__title" data-aos="fade-up" data-aos-duration="2000">
+            Our mission
+          </h1>
+          <h
+            class="about__mission-text"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            data-aos-delay="500"
             >At <span>Energin</span>, we are on a mission to catalyze the global
             transition to sustainable energy solutions. Our goal is to inspire
             and educate individuals, businesses, and policymakers about the
@@ -101,7 +108,12 @@
         </div>
       </div>
       <div class="about__content">
-        <div class="container_s">
+        <div
+          class="container_s"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-delay="1000"
+        >
           <h1 class="about__title">About Us:</h1>
 
           <p class="about__text">
@@ -192,7 +204,10 @@
 
             <ul class="footer__left-icons">
               <li class="footer__left-icon">
-                <a class="footer__left-link" target="_blank" href="https://www.linkedin.com/company/energin-llc/"
+                <a
+                  class="footer__left-link"
+                  target="_blank"
+                  href="https://www.linkedin.com/company/energin-llc/"
                   ><img src="./img/socialIcons/LInkedin.png" alt=""
                 /></a>
               </li>
@@ -265,6 +280,7 @@
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>
